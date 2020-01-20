@@ -1,0 +1,22 @@
+{
+	"name": "zcv",
+	"version": "1.0.0",
+	"description": "Responsive Portfolio Website",
+	"main": "index.js",
+	"scripts": {
+		"sass": "node-sass -w scss/ -o dist/css/ --recursive"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zfdunn/zCV.git"
+	},
+	"author": "Zach Dunn",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/zfdunn/zCV/issues"
+	},
+	"homepage": "https://github.com/zfdunn/zCV#readme",
+	"dependencies": {
+		"node-sass": "^4.13.1"
+	}
+}
